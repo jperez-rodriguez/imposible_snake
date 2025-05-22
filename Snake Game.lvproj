@@ -80,17 +80,22 @@
 			<Item Name="db.db" Type="Document" URL="../Resources/db.db"/>
 			<Item Name="ArcadeClassic.ttf" Type="Document" URL="../Resources/ArcadeClassic.ttf"/>
 		</Item>
+		<Item Name="Modules" Type="Folder"/>
+		<Item Name="LVClasses" Type="Folder">
+			<Item Name="Game Elements" Type="Folder">
+				<Item Name="Fruit.lvclass" Type="LVClass" URL="../Fruit_class/Fruit.lvclass"/>
+				<Item Name="Snake.lvclass" Type="LVClass" URL="../Snake_class/Snake.lvclass"/>
+				<Item Name="Bomb.lvclass" Type="LVClass" URL="../Bomb/Bomb.lvclass"/>
+				<Item Name="Shield.lvclass" Type="LVClass" URL="../Shield/Shield.lvclass"/>
+				<Item Name="Grape.lvclass" Type="LVClass" URL="../Grape/Grape.lvclass"/>
+				<Item Name="Mouse.lvclass" Type="LVClass" URL="../Mouse/Mouse.lvclass"/>
+				<Item Name="Cricket.lvclass" Type="LVClass" URL="../Cricket/Cricket.lvclass"/>
+				<Item Name="Star.lvclass" Type="LVClass" URL="../Star/Star.lvclass"/>
+			</Item>
+			<Item Name="Board Game.lvclass" Type="LVClass" URL="../Board Game_class/Board Game.lvclass"/>
+			<Item Name="GameEl.lvclass" Type="LVClass" URL="../GameEl_class/GameEl.lvclass"/>
+		</Item>
 		<Item Name="Application.lvclass" Type="LVClass" URL="../Application/Application.lvclass"/>
-		<Item Name="Board Game.lvclass" Type="LVClass" URL="../Board Game_class/Board Game.lvclass"/>
-		<Item Name="Fruit.lvclass" Type="LVClass" URL="../Fruit_class/Fruit.lvclass"/>
-		<Item Name="GameEl.lvclass" Type="LVClass" URL="../GameEl_class/GameEl.lvclass"/>
-		<Item Name="Snake.lvclass" Type="LVClass" URL="../Snake_class/Snake.lvclass"/>
-		<Item Name="Bomb.lvclass" Type="LVClass" URL="../Bomb/Bomb.lvclass"/>
-		<Item Name="Shield.lvclass" Type="LVClass" URL="../Shield/Shield.lvclass"/>
-		<Item Name="Grape.lvclass" Type="LVClass" URL="../Grape/Grape.lvclass"/>
-		<Item Name="Mouse.lvclass" Type="LVClass" URL="../Mouse/Mouse.lvclass"/>
-		<Item Name="Cricket.lvclass" Type="LVClass" URL="../Cricket/Cricket.lvclass"/>
-		<Item Name="Star.lvclass" Type="LVClass" URL="../Star/Star.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
