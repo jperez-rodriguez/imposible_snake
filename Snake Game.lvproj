@@ -1,5 +1,61 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="21008000">
+	<Property Name="CCSymbols" Type="Str">Simulation,True;</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="utf.calculate.project.code.coverage" Type="Bool">true</Property>
+	<Property Name="utf.create.arraybrackets" Type="Str">[]</Property>
+	<Property Name="utf.create.arraythreshold" Type="UInt">100</Property>
+	<Property Name="utf.create.captureinputvalues" Type="Bool">true</Property>
+	<Property Name="utf.create.captureoutputvalues" Type="Bool">true</Property>
+	<Property Name="utf.create.codecoverage.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.codecoverage.value" Type="UInt">100</Property>
+	<Property Name="utf.create.editor.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.editor.path" Type="Path"></Property>
+	<Property Name="utf.create.nameseparator" Type="Str">/</Property>
+	<Property Name="utf.create.precision" Type="UInt">6</Property>
+	<Property Name="utf.create.repetitions" Type="UInt">1</Property>
+	<Property Name="utf.create.testpath.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.testpath.path" Type="Path"></Property>
+	<Property Name="utf.create.timeout.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.timeout.value" Type="UInt">0</Property>
+	<Property Name="utf.create.type" Type="UInt">0</Property>
+	<Property Name="utf.enable.RT.VI.server" Type="Bool">false</Property>
+	<Property Name="utf.passwords" Type="Bin">)1#!!!!!!!)!%%!Q`````Q:4&gt;(*J&lt;G=!!":!1!!"`````Q!!#6"B=X.X&lt;X*E=Q!"!!%!!!!"!!!!#F652E&amp;-4&amp;.516)!!!!!</Property>
+	<Property Name="utf.report.atml.create" Type="Bool">false</Property>
+	<Property Name="utf.report.atml.path" Type="Path">ATML report.xml</Property>
+	<Property Name="utf.report.atml.view" Type="Bool">false</Property>
+	<Property Name="utf.report.details.errors" Type="Bool">false</Property>
+	<Property Name="utf.report.details.failed" Type="Bool">false</Property>
+	<Property Name="utf.report.details.passed" Type="Bool">false</Property>
+	<Property Name="utf.report.errors" Type="Bool">true</Property>
+	<Property Name="utf.report.failed" Type="Bool">true</Property>
+	<Property Name="utf.report.html.create" Type="Bool">false</Property>
+	<Property Name="utf.report.html.path" Type="Path">HTML report.html</Property>
+	<Property Name="utf.report.html.view" Type="Bool">false</Property>
+	<Property Name="utf.report.passed" Type="Bool">true</Property>
+	<Property Name="utf.report.skipped" Type="Bool">true</Property>
+	<Property Name="utf.report.sortby" Type="UInt">1</Property>
+	<Property Name="utf.report.stylesheet.flag" Type="Bool">false</Property>
+	<Property Name="utf.report.stylesheet.path" Type="Path"></Property>
+	<Property Name="utf.report.summary" Type="Bool">true</Property>
+	<Property Name="utf.report.txt.create" Type="Bool">false</Property>
+	<Property Name="utf.report.txt.path" Type="Path">ASCII report.txt</Property>
+	<Property Name="utf.report.txt.view" Type="Bool">false</Property>
+	<Property Name="utf.run.changed.days" Type="UInt">1</Property>
+	<Property Name="utf.run.changed.outdated" Type="Bool">false</Property>
+	<Property Name="utf.run.changed.timestamp" Type="Bin">)1#!!!!!!!%!%%"5!!9*2'&amp;U:3^U;7VF!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	<Property Name="utf.run.days.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.includevicallers" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.overwrite" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.path" Type="Path">test execution log.txt</Property>
+	<Property Name="utf.run.modified.last.run.flag" Type="Bool">true</Property>
+	<Property Name="utf.run.priority.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.priority.value" Type="UInt">5</Property>
+	<Property Name="utf.run.statusfile.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.statusfile.path" Type="Path">test status log.txt</Property>
+	<Property Name="utf.run.timestamp.flag" Type="Bool">false</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -14,73 +70,75 @@
 		<Item Name="Documentation" Type="Folder">
 			<Item Name="Class diagram.bak" Type="Document" URL="../Documentation/Class diagram.bak"/>
 			<Item Name="Class diagram.uml" Type="Document" URL="../Documentation/Class diagram.uml"/>
-			<Item Name="App_Icon.ico" Type="Document" URL="../Documentation/App_Icon.ico"/>
-			<Item Name="Game Over.wav" Type="Document" URL="../Documentation/Game Over.wav"/>
-			<Item Name="Victory.wav" Type="Document" URL="../Documentation/Victory.wav"/>
-			<Item Name="10 Fruits.wav" Type="Document" URL="../Documentation/10 Fruits.wav"/>
-			<Item Name="Bomb Touched.wav" Type="Document" URL="../Documentation/Bomb Touched.wav"/>
-			<Item Name="Catch Life.wav" Type="Document" URL="../Documentation/Catch Life.wav"/>
-			<Item Name="Eat.wav" Type="Document" URL="../Documentation/Eat.wav"/>
-			<Item Name="menu.wav" Type="Document" URL="../Documentation/menu.wav"/>
-			<Item Name="New Bomb.wav" Type="Document" URL="../Documentation/New Bomb.wav"/>
-			<Item Name="Sound1.wav" Type="Document" URL="../Documentation/Sound1.wav"/>
-			<Item Name="Sound2.wav" Type="Document" URL="../Documentation/Sound2.wav"/>
-			<Item Name="Eat2.wav" Type="Document" URL="../Documentation/Eat2.wav"/>
-			<Item Name="Eat3.wav" Type="Document" URL="../Documentation/Eat3.wav"/>
-			<Item Name="Eat4.wav" Type="Document" URL="../Documentation/Eat4.wav"/>
-			<Item Name="Bomb In.wav" Type="Document" URL="../Documentation/Bomb In.wav"/>
-			<Item Name="Bomb Out.wav" Type="Document" URL="../Documentation/Bomb Out.wav"/>
-			<Item Name="10p.wav" Type="Document" URL="../Documentation/10p.wav"/>
-			<Item Name="20p.wav" Type="Document" URL="../Documentation/20p.wav"/>
-			<Item Name="30p.wav" Type="Document" URL="../Documentation/30p.wav"/>
-			<Item Name="40p.wav" Type="Document" URL="../Documentation/40p.wav"/>
-			<Item Name="50p.wav" Type="Document" URL="../Documentation/50p.wav"/>
-			<Item Name="60p.wav" Type="Document" URL="../Documentation/60p.wav"/>
-			<Item Name="70p.wav" Type="Document" URL="../Documentation/70p.wav"/>
-			<Item Name="80p.wav" Type="Document" URL="../Documentation/80p.wav"/>
-			<Item Name="90p.wav" Type="Document" URL="../Documentation/90p.wav"/>
-			<Item Name="100p.wav" Type="Document" URL="../Documentation/100p.wav"/>
-			<Item Name="All shields cracked.wav" Type="Document" URL="../Documentation/All shields cracked.wav"/>
-			<Item Name="Bonus.wav" Type="Document" URL="../Documentation/Bonus.wav"/>
-			<Item Name="Broken Shield.wav" Type="Document" URL="../Documentation/Broken Shield.wav"/>
-			<Item Name="explode.wav" Type="Document" URL="../Documentation/explode.wav"/>
-			<Item Name="Game over musica.wav" Type="Document" URL="../Documentation/Game over musica.wav"/>
-			<Item Name="Grape Eaten.wav" Type="Document" URL="../Documentation/Grape Eaten.wav"/>
-			<Item Name="Grape In.wav" Type="Document" URL="../Documentation/Grape In.wav"/>
-			<Item Name="Happy Time.wav" Type="Document" URL="../Documentation/Happy Time.wav"/>
-			<Item Name="Life.wav" Type="Document" URL="../Documentation/Life.wav"/>
-			<Item Name="MaxShield.wav" Type="Document" URL="../Documentation/MaxShield.wav"/>
-			<Item Name="Mouse Eaten.wav" Type="Document" URL="../Documentation/Mouse Eaten.wav"/>
-			<Item Name="Mouse In.wav" Type="Document" URL="../Documentation/Mouse In.wav"/>
-			<Item Name="Shield.wav" Type="Document" URL="../Documentation/Shield.wav"/>
-			<Item Name="Sound3.wav" Type="Document" URL="../Documentation/Sound3.wav"/>
-			<Item Name="States Recover.wav" Type="Document" URL="../Documentation/States Recover.wav"/>
-			<Item Name="escudo roto.wav" Type="Document" URL="../Documentation/escudo roto.wav"/>
-			<Item Name="Evil lough.wav" Type="Document" URL="../Documentation/Evil lough.wav"/>
-			<Item Name="Shield Catch.wav" Type="Document" URL="../Documentation/Shield Catch.wav"/>
-			<Item Name="Snake.gif" Type="Document" URL="../Documentation/Snake.gif"/>
-			<Item Name="Snake_small.gif" Type="Document" URL="../Documentation/Snake_small.gif"/>
-			<Item Name="Cricket eaten.wav" Type="Document" URL="../Documentation/Cricket eaten.wav"/>
-			<Item Name="Cricket In.wav" Type="Document" URL="../Documentation/Cricket In.wav"/>
-			<Item Name="Jump1.wav" Type="Document" URL="../Documentation/Jump1.wav"/>
-			<Item Name="Jump2.wav" Type="Document" URL="../Documentation/Jump2.wav"/>
-			<Item Name="Jump3.wav" Type="Document" URL="../Documentation/Jump3.wav"/>
-			<Item Name="Lets Go.wav" Type="Document" URL="../Documentation/Lets Go.wav"/>
-			<Item Name="Snake sprite sheet.png" Type="Document" URL="../Documentation/Snake sprite sheet.png"/>
-			<Item Name="Troll Music.wav" Type="Document" URL="../Documentation/Troll Music.wav"/>
-			<Item Name="Unstoppable.wav" Type="Document" URL="../Documentation/Unstoppable.wav"/>
-			<Item Name="Sound0.wav" Type="Document" URL="../Documentation/Sound0.wav"/>
-			<Item Name="Sound4.wav" Type="Document" URL="../Documentation/Sound4.wav"/>
-			<Item Name="Sound5.wav" Type="Document" URL="../Documentation/Sound5.wav"/>
-			<Item Name="Sound6.wav" Type="Document" URL="../Documentation/Sound6.wav"/>
-			<Item Name="Sound7.mp3" Type="Document" URL="../Documentation/Sound7.mp3"/>
-			<Item Name="Sound7.wav" Type="Document" URL="../Documentation/Sound7.wav"/>
 		</Item>
 		<Item Name="Resources" Type="Folder">
-			<Item Name="db.db" Type="Document" URL="../Resources/db.db"/>
+			<Item Name="sounds" Type="Folder">
+				<Item Name="10 Fruits.wav" Type="Document" URL="../Resources/sounds/10 Fruits.wav"/>
+				<Item Name="100p.wav" Type="Document" URL="../Resources/sounds/100p.wav"/>
+				<Item Name="10p.wav" Type="Document" URL="../Resources/sounds/10p.wav"/>
+				<Item Name="20p.wav" Type="Document" URL="../Resources/sounds/20p.wav"/>
+				<Item Name="30p.wav" Type="Document" URL="../Resources/sounds/30p.wav"/>
+				<Item Name="40p.wav" Type="Document" URL="../Resources/sounds/40p.wav"/>
+				<Item Name="50p.wav" Type="Document" URL="../Resources/sounds/50p.wav"/>
+				<Item Name="60p.wav" Type="Document" URL="../Resources/sounds/60p.wav"/>
+				<Item Name="70p.wav" Type="Document" URL="../Resources/sounds/70p.wav"/>
+				<Item Name="80p.wav" Type="Document" URL="../Resources/sounds/80p.wav"/>
+				<Item Name="90p.wav" Type="Document" URL="../Resources/sounds/90p.wav"/>
+				<Item Name="All shields cracked.wav" Type="Document" URL="../Resources/sounds/All shields cracked.wav"/>
+				<Item Name="Bomb In.wav" Type="Document" URL="../Resources/sounds/Bomb In.wav"/>
+				<Item Name="Bomb Out.wav" Type="Document" URL="../Resources/sounds/Bomb Out.wav"/>
+				<Item Name="Bomb Touched.wav" Type="Document" URL="../Resources/sounds/Bomb Touched.wav"/>
+				<Item Name="Bonus.wav" Type="Document" URL="../Resources/sounds/Bonus.wav"/>
+				<Item Name="Broken Shield.wav" Type="Document" URL="../Resources/sounds/Broken Shield.wav"/>
+				<Item Name="Catch Life.wav" Type="Document" URL="../Resources/sounds/Catch Life.wav"/>
+				<Item Name="Cricket eaten.wav" Type="Document" URL="../Resources/sounds/Cricket eaten.wav"/>
+				<Item Name="Cricket In.wav" Type="Document" URL="../Resources/sounds/Cricket In.wav"/>
+				<Item Name="Eat.wav" Type="Document" URL="../Resources/sounds/Eat.wav"/>
+				<Item Name="Eat2.wav" Type="Document" URL="../Resources/sounds/Eat2.wav"/>
+				<Item Name="Eat3.wav" Type="Document" URL="../Resources/sounds/Eat3.wav"/>
+				<Item Name="Eat4.wav" Type="Document" URL="../Resources/sounds/Eat4.wav"/>
+				<Item Name="escudo roto.wav" Type="Document" URL="../Resources/sounds/escudo roto.wav"/>
+				<Item Name="Evil lough.wav" Type="Document" URL="../Resources/sounds/Evil lough.wav"/>
+				<Item Name="explode.wav" Type="Document" URL="../Resources/sounds/explode.wav"/>
+				<Item Name="Game over musica.wav" Type="Document" URL="../Resources/sounds/Game over musica.wav"/>
+				<Item Name="Game Over.wav" Type="Document" URL="../Resources/sounds/Game Over.wav"/>
+				<Item Name="Grape Eaten.wav" Type="Document" URL="../Resources/sounds/Grape Eaten.wav"/>
+				<Item Name="Grape In.wav" Type="Document" URL="../Resources/sounds/Grape In.wav"/>
+				<Item Name="Happy Time.wav" Type="Document" URL="../Resources/sounds/Happy Time.wav"/>
+				<Item Name="Jump1.wav" Type="Document" URL="../Resources/sounds/Jump1.wav"/>
+				<Item Name="Jump2.wav" Type="Document" URL="../Resources/sounds/Jump2.wav"/>
+				<Item Name="Jump3.wav" Type="Document" URL="../Resources/sounds/Jump3.wav"/>
+				<Item Name="Lets Go.wav" Type="Document" URL="../Resources/sounds/Lets Go.wav"/>
+				<Item Name="Life.wav" Type="Document" URL="../Resources/sounds/Life.wav"/>
+				<Item Name="MaxShield.wav" Type="Document" URL="../Resources/sounds/MaxShield.wav"/>
+				<Item Name="menu.wav" Type="Document" URL="../Resources/sounds/menu.wav"/>
+				<Item Name="Mouse Eaten.wav" Type="Document" URL="../Resources/sounds/Mouse Eaten.wav"/>
+				<Item Name="Mouse In.wav" Type="Document" URL="../Resources/sounds/Mouse In.wav"/>
+				<Item Name="New Bomb.wav" Type="Document" URL="../Resources/sounds/New Bomb.wav"/>
+				<Item Name="Shield Catch.wav" Type="Document" URL="../Resources/sounds/Shield Catch.wav"/>
+				<Item Name="Shield.wav" Type="Document" URL="../Resources/sounds/Shield.wav"/>
+				<Item Name="Sound0.wav" Type="Document" URL="../Resources/sounds/Sound0.wav"/>
+				<Item Name="Sound1.wav" Type="Document" URL="../Resources/sounds/Sound1.wav"/>
+				<Item Name="Sound2.wav" Type="Document" URL="../Resources/sounds/Sound2.wav"/>
+				<Item Name="Sound3.wav" Type="Document" URL="../Resources/sounds/Sound3.wav"/>
+				<Item Name="Sound4.wav" Type="Document" URL="../Resources/sounds/Sound4.wav"/>
+				<Item Name="Sound5.wav" Type="Document" URL="../Resources/sounds/Sound5.wav"/>
+				<Item Name="States Recover.wav" Type="Document" URL="../Resources/sounds/States Recover.wav"/>
+				<Item Name="Troll Music.wav" Type="Document" URL="../Resources/sounds/Troll Music.wav"/>
+				<Item Name="Unstoppable.wav" Type="Document" URL="../Resources/sounds/Unstoppable.wav"/>
+				<Item Name="Victory.wav" Type="Document" URL="../Resources/sounds/Victory.wav"/>
+				<Item Name="winner.wav" Type="Document" URL="../Resources/sounds/winner.wav"/>
+			</Item>
+			<Item Name="Icon" Type="Folder">
+				<Item Name="App_Icon.ico" Type="Document" URL="../Resources/Icon/App_Icon.ico"/>
+			</Item>
 			<Item Name="ArcadeClassic.ttf" Type="Document" URL="../Resources/ArcadeClassic.ttf"/>
+			<Item Name="db.db" Type="Document" URL="../Resources/database/db.db"/>
 		</Item>
-		<Item Name="Modules" Type="Folder"/>
+		<Item Name="Modules" Type="Folder">
+			<Item Name="Sound Manager.lvlib" Type="Library" URL="../LVApp/Modules/Sound Manager/Sound Manager.lvlib"/>
+			<Item Name="Configuration.lvlib" Type="Library" URL="../LVApp/Modules/Configuration/Configuration.lvlib"/>
+		</Item>
 		<Item Name="LVClasses" Type="Folder">
 			<Item Name="Game Elements" Type="Folder">
 				<Item Name="Fruit.lvclass" Type="LVClass" URL="../Fruit_class/Fruit.lvclass"/>
@@ -192,6 +250,11 @@
 				<Item Name="Execute SQL (Poly).vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/SQLite Library/SQL Connection/Execute SQL (Poly).vi"/>
 				<Item Name="Execute SQL (No results).vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/SQLite Library/SQL Connection/Execute SQL (No results).vi"/>
 				<Item Name="Execute SQL.vi" Type="VI" URL="/&lt;vilib&gt;/drjdpowell/SQLite Library/SQL Connection/Execute SQL.vi"/>
+				<Item Name="Architecture.lvlib" Type="Library" URL="/&lt;vilib&gt;/Ctrl VI Studios®/Ctrl VI Architecture/Architecture.lvlib"/>
+				<Item Name="Error_Manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/Ctrl VI Studios®/Error_Logger/Error_Manager.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_boolean__ogtk.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/openg_boolean__ogtk.lvlib"/>
@@ -228,7 +291,7 @@
 				<Property Name="Destination[3].destName" Type="Str">Resources</Property>
 				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/Snake The Game/Resources</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documentation/App_Icon.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref"></Property>
 				<Property Name="Source[0].itemID" Type="Str">{36337435-79C2-4CD3-9BFD-86A1349626E6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -236,73 +299,73 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Documentation/Catch Life.wav</Property>
+				<Property Name="Source[10].itemID" Type="Ref"></Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Documentation/Bomb Touched.wav</Property>
+				<Property Name="Source[11].itemID" Type="Ref"></Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Documentation/10 Fruits.wav</Property>
+				<Property Name="Source[12].itemID" Type="Ref"></Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Documentation/Eat2.wav</Property>
+				<Property Name="Source[13].itemID" Type="Ref"></Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Documentation/Eat3.wav</Property>
+				<Property Name="Source[14].itemID" Type="Ref"></Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Documentation/Eat4.wav</Property>
+				<Property Name="Source[15].itemID" Type="Ref"></Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Documentation/Bomb In.wav</Property>
+				<Property Name="Source[16].itemID" Type="Ref"></Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Documentation/Bomb Out.wav</Property>
+				<Property Name="Source[17].itemID" Type="Ref"></Property>
 				<Property Name="Source[18].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Documentation/10p.wav</Property>
+				<Property Name="Source[18].itemID" Type="Ref"></Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/Documentation/20p.wav</Property>
+				<Property Name="Source[19].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Documentation/Game Over.wav</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/Documentation/30p.wav</Property>
+				<Property Name="Source[20].itemID" Type="Ref"></Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/Documentation/40p.wav</Property>
+				<Property Name="Source[21].itemID" Type="Ref"></Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Documentation/50p.wav</Property>
+				<Property Name="Source[22].itemID" Type="Ref"></Property>
 				<Property Name="Source[23].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/Documentation/60p.wav</Property>
+				<Property Name="Source[23].itemID" Type="Ref"></Property>
 				<Property Name="Source[24].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/Documentation/70p.wav</Property>
+				<Property Name="Source[24].itemID" Type="Ref"></Property>
 				<Property Name="Source[25].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/My Computer/Documentation/80p.wav</Property>
+				<Property Name="Source[25].itemID" Type="Ref"></Property>
 				<Property Name="Source[26].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/My Computer/Documentation/90p.wav</Property>
+				<Property Name="Source[26].itemID" Type="Ref"></Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/Documentation/100p.wav</Property>
+				<Property Name="Source[27].itemID" Type="Ref"></Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/Documentation/All shields cracked.wav</Property>
+				<Property Name="Source[28].itemID" Type="Ref"></Property>
 				<Property Name="Source[29].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[29].itemID" Type="Ref">/My Computer/Documentation/Bonus.wav</Property>
+				<Property Name="Source[29].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Documentation/Victory.wav</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[30].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[30].itemID" Type="Ref">/My Computer/Documentation/Broken Shield.wav</Property>
+				<Property Name="Source[30].itemID" Type="Ref"></Property>
 				<Property Name="Source[31].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[31].itemID" Type="Ref">/My Computer/Documentation/explode.wav</Property>
+				<Property Name="Source[31].itemID" Type="Ref"></Property>
 				<Property Name="Source[32].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[32].itemID" Type="Ref">/My Computer/Documentation/Game over musica.wav</Property>
+				<Property Name="Source[32].itemID" Type="Ref"></Property>
 				<Property Name="Source[33].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[33].itemID" Type="Ref">/My Computer/Documentation/Grape Eaten.wav</Property>
+				<Property Name="Source[33].itemID" Type="Ref"></Property>
 				<Property Name="Source[34].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[34].itemID" Type="Ref">/My Computer/Documentation/Grape In.wav</Property>
+				<Property Name="Source[34].itemID" Type="Ref"></Property>
 				<Property Name="Source[35].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[35].itemID" Type="Ref">/My Computer/Documentation/Happy Time.wav</Property>
+				<Property Name="Source[35].itemID" Type="Ref"></Property>
 				<Property Name="Source[36].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[36].itemID" Type="Ref">/My Computer/Documentation/Life.wav</Property>
+				<Property Name="Source[36].itemID" Type="Ref"></Property>
 				<Property Name="Source[37].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[37].itemID" Type="Ref">/My Computer/Documentation/MaxShield.wav</Property>
+				<Property Name="Source[37].itemID" Type="Ref"></Property>
 				<Property Name="Source[38].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[38].itemID" Type="Ref">/My Computer/Documentation/Mouse Eaten.wav</Property>
+				<Property Name="Source[38].itemID" Type="Ref"></Property>
 				<Property Name="Source[39].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[39].itemID" Type="Ref">/My Computer/Documentation/Mouse In.wav</Property>
+				<Property Name="Source[39].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Documentation/Sound2.wav</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[40].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[40].itemID" Type="Ref">/My Computer/Documentation/Shield.wav</Property>
+				<Property Name="Source[40].itemID" Type="Ref"></Property>
 				<Property Name="Source[41].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[41].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[41].Container.depDestIndex" Type="Int">0</Property>
@@ -311,9 +374,9 @@
 				<Property Name="Source[41].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[41].type" Type="Str">Container</Property>
 				<Property Name="Source[42].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[42].itemID" Type="Ref">/My Computer/Documentation/Sound3.wav</Property>
+				<Property Name="Source[42].itemID" Type="Ref"></Property>
 				<Property Name="Source[43].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[43].itemID" Type="Ref">/My Computer/Documentation/States Recover.wav</Property>
+				<Property Name="Source[43].itemID" Type="Ref"></Property>
 				<Property Name="Source[44].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[44].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[44].Container.depDestIndex" Type="Int">0</Property>
@@ -322,21 +385,21 @@
 				<Property Name="Source[44].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[44].type" Type="Str">Container</Property>
 				<Property Name="Source[45].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[45].itemID" Type="Ref">/My Computer/Documentation/escudo roto.wav</Property>
+				<Property Name="Source[45].itemID" Type="Ref"></Property>
 				<Property Name="Source[46].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[46].itemID" Type="Ref">/My Computer/Documentation/Evil lough.wav</Property>
+				<Property Name="Source[46].itemID" Type="Ref"></Property>
 				<Property Name="Source[47].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[47].itemID" Type="Ref">/My Computer/Documentation/Shield Catch.wav</Property>
+				<Property Name="Source[47].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Documentation/Sound1.wav</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Documentation/New Bomb.wav</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Documentation/menu.wav</Property>
+				<Property Name="Source[7].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Documentation/Eat.wav</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="SourceCount" Type="Int">48</Property>
 				<Property Name="TgtF_companyName" Type="Str">LabCREW</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Snake The Game</Property>
@@ -450,7 +513,7 @@ This game is property of LabCREW Studios. Designed and created by Juan Pérez Ro
 				<Property Name="Source[0].File[3].attributes" Type="Int">2</Property>
 				<Property Name="Source[0].File[3].dest" Type="Str">{741B95C4-2513-4B6B-B9FF-22625C5586E4}</Property>
 				<Property Name="Source[0].File[3].name" Type="Str">Game Over.wav</Property>
-				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/Documentation/Game Over.wav</Property>
+				<Property Name="Source[0].File[3].tag" Type="Ref"></Property>
 				<Property Name="Source[0].File[4].attributes" Type="Int">2</Property>
 				<Property Name="Source[0].File[4].dest" Type="Str">{741B95C4-2513-4B6B-B9FF-22625C5586E4}</Property>
 				<Property Name="Source[0].File[4].name" Type="Str">Sound.wav</Property>
@@ -458,7 +521,7 @@ This game is property of LabCREW Studios. Designed and created by Juan Pérez Ro
 				<Property Name="Source[0].File[5].attributes" Type="Int">2</Property>
 				<Property Name="Source[0].File[5].dest" Type="Str">{741B95C4-2513-4B6B-B9FF-22625C5586E4}</Property>
 				<Property Name="Source[0].File[5].name" Type="Str">Victory.wav</Property>
-				<Property Name="Source[0].File[5].tag" Type="Ref">/My Computer/Documentation/Victory.wav</Property>
+				<Property Name="Source[0].File[5].tag" Type="Ref"></Property>
 				<Property Name="Source[0].File[6].dest" Type="Str">{741B95C4-2513-4B6B-B9FF-22625C5586E4}</Property>
 				<Property Name="Source[0].File[6].name" Type="Str">lvsound2.dll</Property>
 				<Property Name="Source[0].File[6].tag" Type="Str">{9D485470-D24F-463C-BDB5-17BC88DF002A}</Property>
