@@ -11,15 +11,15 @@
 </Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Clear Finish Tasks.vi" Type="VI" URL="../SubVIs/Clear Finish Tasks.vi"/>
-		<Item Name="Manage Background Music.vi" Type="VI" URL="../../../../../LVApp/Modules/Sound Manager/SubVIs/Manage Background Music.vi"/>
+		<Item Name="Manage Background Music.vi" Type="VI" URL="../SubVIs/Manage Background Music.vi"/>
 		<Item Name="Next Background Music.vi" Type="VI" URL="../SubVIs/Next Background Music.vi"/>
-		<Item Name="Play Sound Effx.vi" Type="VI" URL="../../../../../LVApp/Modules/Sound Manager/SubVIs/Play Sound Effx.vi"/>
-		<Item Name="Read Sound ConfigurationI.vi" Type="VI" URL="../../../../../LVApp/Modules/Sound Manager/SubVIs/Read Sound ConfigurationI.vi"/>
+		<Item Name="Play Sound Effx.vi" Type="VI" URL="../SubVIs/Play Sound Effx.vi"/>
+		<Item Name="Read Sound ConfigurationI.vi" Type="VI" URL="../SubVIs/Read Sound ConfigurationI.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
-		<Item Name="Config.ctl" Type="VI" URL="../../../../../LVApp/Modules/Sound Manager/Typedefs/Config.ctl"/>
+		<Item Name="Config.ctl" Type="VI" URL="../Typedefs/Config.ctl"/>
 		<Item Name="Sound Data.ctl" Type="VI" URL="../Typedefs/Sound Data.ctl"/>
-		<Item Name="Sound Effects.ctl" Type="VI" URL="../../../../../LVApp/Modules/Sound Manager/Typedefs/Sound Effects.ctl"/>
+		<Item Name="Sound Effects.ctl" Type="VI" URL="../Typedefs/Sound Effects.ctl"/>
 		<Item Name="States.ctl" Type="VI" URL="../Typedefs/States.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>

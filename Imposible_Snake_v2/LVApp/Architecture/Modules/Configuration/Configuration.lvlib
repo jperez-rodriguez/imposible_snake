@@ -15,6 +15,7 @@
 		<Item Name="POLY Read Configuration API.vi" Type="VI" URL="../../../SubVIs/POLY Read Configuration API.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
+		<Item Name="App Cfg DVR.ctl" Type="VI" URL="../Typedefs/App Cfg DVR.ctl"/>
 		<Item Name="Application Configuration.ctl" Type="VI" URL="../../../Typedefs/Application Configuration.ctl"/>
 		<Item Name="Enum_Module_Name.ctl" Type="VI" URL="../../../Typedefs/Enum_Module_Name.ctl"/>
 		<Item Name="SM Data.ctl" Type="VI" URL="../Typedefs/SM Data.ctl"/>
