@@ -11,6 +11,7 @@
 </Property>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Core UI Configuraton Extractor API.vi" Type="VI" URL="../SubVIs/Core UI Configuraton Extractor API.vi"/>
+		<Item Name="Start Menu.vi" Type="VI" URL="../SubVIs/Start Menu.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Config.ctl" Type="VI" URL="../Typedefs/Config.ctl"/>

@@ -30,10 +30,13 @@
 			<Item Name="Module Template.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Architecture/Modules/Module Template/Module Template.lvlib"/>
 			<Item Name="Core UI.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Architecture/Modules/Core UI/Core UI.lvlib"/>
 			<Item Name="Sound Manager.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Modules/Sound Manager/Sound Manager.lvlib"/>
+			<Item Name="Controller.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Modules/Game Controller/Controller.lvlib"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder"/>
+		<Item Name="LVClasses" Type="Folder"/>
 		<Item Name="Architecture.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Architecture/Architecture.lvlib"/>
 		<Item Name="Launcher Template (Top Level VI).vi" Type="VI" URL="../Imposible_Snake_v2/LVApp/Architecture/Launcher Template (Top Level VI).vi"/>
+		<Item Name="Globales Snake.vi" Type="VI" URL="../Imposible_Snake_v2/LVApp/Utilities/Globales Snake.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -93,6 +96,7 @@
 				<Item Name="Sound Output Set Volume (Array).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Set Volume (Array).vi"/>
 				<Item Name="Sound Output Start.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Start.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 			</Item>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 		</Item>

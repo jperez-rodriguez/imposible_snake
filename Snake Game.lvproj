@@ -254,20 +254,17 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
-				<Item Name="Module References.ctl" Type="VI" URL="/&lt;vilib&gt;/Ctrl VI Studios®/Ctrl VI Architecture/TypeDefs/Module References.ctl"/>
-				<Item Name="Enum_Module_Name.ctl" Type="VI" URL="/&lt;vilib&gt;/Ctrl VI Studios®/Ctrl VI Architecture/TypeDefs/Enum_Module_Name.ctl"/>
-				<Item Name="Message.ctl" Type="VI" URL="/&lt;vilib&gt;/Ctrl VI Studios®/Ctrl VI Architecture/TypeDefs/Message.ctl"/>
-				<Item Name="Init Module.vi" Type="VI" URL="/&lt;vilib&gt;/Ctrl VI Studios®/Ctrl VI Architecture/SubVIs/Init Module.vi"/>
-				<Item Name="Enqueue Local Message.vi" Type="VI" URL="/&lt;vilib&gt;/Ctrl VI Studios®/Ctrl VI Architecture/SubVIs/Enqueue Local Message.vi"/>
-				<Item Name="Send Message Modules.vi" Type="VI" URL="/&lt;vilib&gt;/Ctrl VI Studios®/Ctrl VI Architecture/SubVIs/Send Message Modules.vi"/>
-				<Item Name="Send Message Module.vi" Type="VI" URL="/&lt;vilib&gt;/Ctrl VI Studios®/Ctrl VI Architecture/SubVIs/Send Message Module.vi"/>
-				<Item Name="Dequeue Local Message.vi" Type="VI" URL="/&lt;vilib&gt;/Ctrl VI Studios®/Ctrl VI Architecture/SubVIs/Dequeue Local Message.vi"/>
-				<Item Name="Extract Synchronous Data.vi" Type="VI" URL="/&lt;vilib&gt;/Ctrl VI Studios®/Ctrl VI Architecture/SubVIs/Extract Synchronous Data.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_boolean__ogtk.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/openg_boolean__ogtk.lvlib"/>
 			</Item>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
+			<Item Name="Sound Manager.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Modules/Sound Manager/Sound Manager.lvlib"/>
+			<Item Name="Configuration.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Architecture/Modules/Configuration/Configuration.lvlib"/>
+			<Item Name="Module Template.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Architecture/Modules/Module Template/Module Template.lvlib"/>
+			<Item Name="Core UI.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Architecture/Modules/Core UI/Core UI.lvlib"/>
+			<Item Name="Architecture.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Architecture/Architecture.lvlib"/>
+			<Item Name="Read Sound ConfigurationI.vi" Type="VI" URL="../LVApp/Modules/Sound Manager/SubVIs/Read Sound ConfigurationI.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Snake The Game" Type="EXE">

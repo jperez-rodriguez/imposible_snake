@@ -10,11 +10,17 @@
 
 </Property>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Clear Finish Tasks.vi" Type="VI" URL="../SubVIs/Clear Finish Tasks.vi"/>
-		<Item Name="Manage Background Music.vi" Type="VI" URL="../SubVIs/Manage Background Music.vi"/>
-		<Item Name="Next Background Music.vi" Type="VI" URL="../SubVIs/Next Background Music.vi"/>
-		<Item Name="Play Sound Effx.vi" Type="VI" URL="../SubVIs/Play Sound Effx.vi"/>
-		<Item Name="Read Sound ConfigurationI.vi" Type="VI" URL="../SubVIs/Read Sound ConfigurationI.vi"/>
+		<Item Name="Private" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Item Name="Clear Finish Tasks.vi" Type="VI" URL="../SubVIs/Clear Finish Tasks.vi"/>
+			<Item Name="Manage Background Music.vi" Type="VI" URL="../SubVIs/Manage Background Music.vi"/>
+			<Item Name="Next Background Music.vi" Type="VI" URL="../SubVIs/Next Background Music.vi"/>
+			<Item Name="Play Sound Effx.vi" Type="VI" URL="../SubVIs/Play Sound Effx.vi"/>
+		</Item>
+		<Item Name="Public API" Type="Folder">
+			<Item Name="Play Stop Sound Effx.vi" Type="VI" URL="../SubVIs/Play Stop Sound Effx.vi"/>
+			<Item Name="Read Sound ConfigurationI.vi" Type="VI" URL="../SubVIs/Read Sound ConfigurationI.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Config.ctl" Type="VI" URL="../Typedefs/Config.ctl"/>
