@@ -2,3 +2,21 @@
 13:22:16,232 01/08/2025:	Error Code:1;	Source: Send Notification in Core UI.lvlib:Main Core UI.vi
 13:24:13,170 01/08/2025:	Error Code:1;	Source: Send Notification in Core UI.lvlib:Main Core UI.vi
 13:25:30,373 01/08/2025:	Error Code:1;	Source: Send Notification in Core UI.lvlib:Main Core UI.vi
+19:27:26,891 01/08/2025:	Error Code:4803;	Source: Sound File Read Open.vi->Sound File Info (path).vi->Play Sound File.vi->Sound Manager.lvlib:Play Sound Effx.vi->Sound Manager.lvlib:Main.vi
+
+19:27:35,145 01/08/2025:	Error Code:4801;	Source: Sound Output Clear.vi->Sound Manager.lvlib:Play Sound Effx.vi->Sound Manager.lvlib:Main.vi
+
+19:27:48,135 01/08/2025:	Error Code:4803;	Source: Sound File Read Open.vi->Sound File Info (path).vi->Play Sound File.vi->Sound Manager.lvlib:Play Sound Effx.vi->Sound Manager.lvlib:Main.vi
+
+19:27:54,326 01/08/2025:	Error Code:4801;	Source: Sound Output Clear.vi->Sound Manager.lvlib:Play Sound Effx.vi->Sound Manager.lvlib:Main.vi
+
+19:28:11,872 01/08/2025:	Error Code:4803;	Source: Sound File Read Open.vi->Sound File Info (path).vi->Play Sound File.vi->Sound Manager.lvlib:Play Sound Effx.vi->Sound Manager.lvlib:Main.vi
+
+19:28:19,234 01/08/2025:	Error Code:4801;	Source: Sound Output Clear.vi->Sound Manager.lvlib:Play Sound Effx.vi->Sound Manager.lvlib:Main.vi
+
+19:29:44,543 01/08/2025:	Error Code:4803;	Source: Sound File Read Open.vi->Sound File Info (path).vi->Play Sound File.vi->Sound Manager.lvlib:Play Sound Effx.vi->Sound Manager.lvlib:Main.vi
+
+19:29:57,030 01/08/2025:	Error Code:1;	Source: Generate User Event in Architecture.lvlib:Send Message Module.vi->Sound Manager.lvlib:Play Stop Sound Effx.vi->Core UI.lvlib:Start Menu.vi->Core UI.lvlib:Main Core UI.vi
+19:30:33,160 01/08/2025:	Error Code:4803;	Source: Sound File Read Open.vi->Sound File Info (path).vi->Play Sound File.vi->Sound Manager.lvlib:Play Sound Effx.vi->Sound Manager.lvlib:Main.vi
+
+19:30:35,727 01/08/2025:	Error Code:4801;	Source: Sound Output Clear.vi->Sound Manager.lvlib:Play Sound Effx.vi->Sound Manager.lvlib:Main.vi
