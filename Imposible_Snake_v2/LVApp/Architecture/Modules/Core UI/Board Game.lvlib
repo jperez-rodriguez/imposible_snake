@@ -17,5 +17,5 @@
 		<Item Name="Config.ctl" Type="VI" URL="../Typedefs/Config.ctl"/>
 		<Item Name="State Machine Data.ctl" Type="VI" URL="../Typedefs/State Machine Data.ctl"/>
 	</Item>
-	<Item Name="Main Core UI.vi" Type="VI" URL="../SubVIs/Main Core UI.vi"/>
+	<Item Name="Main Board Game.vi" Type="VI" URL="../SubVIs/Main Board Game.vi"/>
 </Library>

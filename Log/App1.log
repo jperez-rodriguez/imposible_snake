@@ -20,3 +20,6 @@
 19:30:33,160 01/08/2025:	Error Code:4803;	Source: Sound File Read Open.vi->Sound File Info (path).vi->Play Sound File.vi->Sound Manager.lvlib:Play Sound Effx.vi->Sound Manager.lvlib:Main.vi
 
 19:30:35,727 01/08/2025:	Error Code:4801;	Source: Sound Output Clear.vi->Sound Manager.lvlib:Play Sound Effx.vi->Sound Manager.lvlib:Main.vi
+
+14:05:53,215 02/08/2025:	Error Code:1055;	Source: Property Node in Board Game.lvclass:Init.vi->Game.lvclass:Init.vi->Board Game.lvlib:Main Board Game.vi
+14:07:45,846 02/08/2025:	Error Code:1055;	Source: Property Node in Board Game.lvclass:Init.vi->Game.lvclass:Init.vi->Board Game.lvlib:Main Board Game.vi

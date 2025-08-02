@@ -18,6 +18,7 @@
 			<Item Name="Play Sound Effx.vi" Type="VI" URL="../SubVIs/Play Sound Effx.vi"/>
 		</Item>
 		<Item Name="Public API" Type="Folder">
+			<Item Name="API Play Pause Background Music.vi" Type="VI" URL="../SubVIs/API Play Pause Background Music.vi"/>
 			<Item Name="Play Stop Sound Effx.vi" Type="VI" URL="../SubVIs/Play Stop Sound Effx.vi"/>
 			<Item Name="Read Sound ConfigurationI.vi" Type="VI" URL="../SubVIs/Read Sound ConfigurationI.vi"/>
 		</Item>
