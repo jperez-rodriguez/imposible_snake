@@ -23,3 +23,5 @@
 
 14:05:53,215 02/08/2025:	Error Code:1055;	Source: Property Node in Board Game.lvclass:Init.vi->Game.lvclass:Init.vi->Board Game.lvlib:Main Board Game.vi
 14:07:45,846 02/08/2025:	Error Code:1055;	Source: Property Node in Board Game.lvclass:Init.vi->Game.lvclass:Init.vi->Board Game.lvlib:Main Board Game.vi
+15:32:37,580 02/08/2025:	Error Code:1;	Source: Generate User Event in Architecture.lvlib:Send Message Modules.vi->Board Game.lvlib:Main Board Game.vi
+15:36:11,213 02/08/2025:	Error Code:4801;	Source: Sound Output Start.vi->Sound Manager.lvlib:Main.vi
