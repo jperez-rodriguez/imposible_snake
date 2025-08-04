@@ -257,14 +257,17 @@
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_boolean__ogtk.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/openg_boolean__ogtk.lvlib"/>
+				<Item Name="openg_comparison__ogtk.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/openg_comparison__ogtk.lvlib"/>
 			</Item>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 			<Item Name="Sound Manager.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Modules/Sound Manager/Sound Manager.lvlib"/>
 			<Item Name="Configuration.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Architecture/Modules/Configuration/Configuration.lvlib"/>
 			<Item Name="Module Template.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Architecture/Modules/Module Template/Module Template.lvlib"/>
-			<Item Name="Core UI.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Architecture/Modules/Core UI/Core UI.lvlib"/>
 			<Item Name="Architecture.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Architecture/Architecture.lvlib"/>
-			<Item Name="Read Sound ConfigurationI.vi" Type="VI" URL="../LVApp/Modules/Sound Manager/SubVIs/Read Sound ConfigurationI.vi"/>
+			<Item Name="Game.lvclass" Type="LVClass" URL="../Application/Game.lvclass"/>
+			<Item Name="Board Game.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Architecture/Modules/Core UI/Board Game.lvlib"/>
+			<Item Name="Controller.lvlib" Type="Library" URL="../Imposible_Snake_v2/LVApp/Modules/Game Controller/Controller.lvlib"/>
+			<Item Name="Globales Snake.vi" Type="VI" URL="../Imposible_Snake_v2/LVApp/Utilities/Globales Snake.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Snake The Game" Type="EXE">
